@@ -1,0 +1,11 @@
+on: [workflow_dispatch]
+
+jobs:
+  test_action:
+    runs-on: ubuntu-latest
+    name: Workflow to test checkout-node-project action using `act`
+    steps:
+      - name: Test the checkout-node-project action
+        uses: ./ # uses an action in the root directory
+        with:
+          node-version: 14.x
