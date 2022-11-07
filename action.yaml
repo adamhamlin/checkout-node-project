@@ -1,10 +1,10 @@
 name: 'Checkout Node Project'
-description: 'Checkout branch, install Node, and run `npm ci`'
+description: 'Checkout, install Node, and run `npm ci`'
 
 inputs:
   node-version:
-    description: Nodejs version to install
-    required: true
+    description: Node.js version to install
+    required: false
     default: 16.x
 
 runs:
