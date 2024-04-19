@@ -1,5 +1,8 @@
 name: 'Checkout Node Project'
 description: 'Checkout, install Node, and run `npm ci`'
+branding:
+  icon: check-circle
+  color: black
 
 inputs:
   node-version:
