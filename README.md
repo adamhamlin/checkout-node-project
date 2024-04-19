@@ -9,10 +9,10 @@ Remove boilerplate to initialize your node project, so you can replace...
 ```yaml
 steps:
   - name: Checkout your branch
-    uses: actions/checkout@v3
+    uses: actions/checkout@v4
 
   - name: Then install Node.js
-    uses: actions/setup-node@v3
+    uses: actions/setup-node@v4
     with:
       node-version: 20.x
 
@@ -23,7 +23,7 @@ with...
 ```yaml
 steps:
   - name: All above steps in one!
-    uses: adamhamlin/checkout-node-project@v0.1.0
+    uses: adamhamlin/checkout-node-project@v1
     with:
       node-version: 20.x
 ```
