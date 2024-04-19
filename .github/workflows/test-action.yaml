@@ -8,4 +8,4 @@ jobs:
       - name: Test the checkout-node-project action
         uses: ./ # uses an action in the root directory
         with:
-          node-version: 14.x
+          node-version: 18.x
