@@ -14,7 +14,7 @@ steps:
   - name: Then install Node.js
     uses: actions/setup-node@v3
     with:
-      node-version: 16.x
+      node-version: 20.x
 
   - name: Then install dependencies
     run: npm ci
@@ -25,5 +25,5 @@ steps:
   - name: All above steps in one!
     uses: adamhamlin/checkout-node-project@v0.1.0
     with:
-      node-version: 16.x
+      node-version: 20.x
 ```
